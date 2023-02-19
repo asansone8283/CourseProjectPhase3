@@ -127,7 +127,7 @@ def PrintTotals(EmpTotals):
 #***************************************************************************************************************************************
 if __name__ == "__main__":
         # write the line of code that will open the file in append mode and assign it to EmpFile (Hint: see week 6, lab 2 as a guide)
-        with open(FILENAME, "a") as Empfile:
+        with open(FILENAME, "a") as EmpFile:
             #EmpDetailList = []
             EmpTotals = {}
             DetailsPrinted = False
